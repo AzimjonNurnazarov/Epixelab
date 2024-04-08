@@ -1,0 +1,270 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body .container .section1 .section1_info .box1 button, body .container .hero_section .hero_info button, body .container .header .header_right button {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 10px;
+  background: #FF6600;
+  border: none;
+  transition: 0.5;
+  cursor: pointer;
+}
+body .container .section1 .section1_info .box1 button:hover, body .container .hero_section .hero_info button:hover, body .container .header .header_right button:hover {
+  background-color: #e37023;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #dbdada;
+}
+body .container {
+  margin: auto;
+  width: 1440px;
+  height: 100%;
+  padding: 48px 135px;
+  background-color: #fff;
+}
+body .container .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body .container .header .header_center ul {
+  display: flex;
+  gap: 40px;
+}
+body .container .header .header_center ul li a {
+  font-size: 18px;
+  font-family: "Arimo", sans-serif;
+  line-height: 28px;
+  font-weight: 500;
+  color: #000;
+  transition: 0.4s;
+}
+body .container .header .header_center ul li a:hover {
+  font-weight: 700;
+}
+body .container .header .header_right {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+}
+body .container .header .header_right a {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  font-family: "Arimo", sans-serif;
+  color: #000;
+  transition: 0.4s;
+}
+body .container .header .header_right a:hover {
+  font-weight: 700;
+}
+body .container .hero_section {
+  display: flex;
+  justify-content: space-between;
+}
+body .container .hero_section .hero_info {
+  padding-top: 114px;
+}
+body .container .hero_section .hero_info h1 {
+  font-family: "Arimo", sans-serif;
+  font-size: 70px;
+  font-weight: 850;
+  line-height: 81px;
+  color: #0B1B35;
+  max-width: 653px;
+  max-height: 260px;
+  margin-bottom: 16px;
+}
+body .container .hero_section .hero_info p {
+  font-family: "Arimo", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 28px;
+  color: #000;
+  max-width: 555px;
+  margin-bottom: 66px;
+}
+body .container .hero_section .hero_img img {
+  width: 606px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .container .section1 h2 {
+  font-family: "Arimo", sans-serif;
+  font-size: 52px;
+  font-weight: 700;
+  text-align: center;
+  color: #0B1B35;
+  margin-bottom: 100px;
+}
+body .container .section1 .section1_info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body .container .section1 .section1_info .box1 {
+  width: 352px;
+  height: 508px;
+  background: #FFFFFF;
+  text-align: center;
+  border-radius: 28px;
+  padding: 30px 39px 45px 39px;
+  box-shadow: 0px 2.77px 2.21px 0px rgba(0, 0, 0, 0.0196078431);
+  box-shadow: 0px 6.65px 5.32px 0px rgba(0, 0, 0, 0.0274509804);
+  box-shadow: 0px 12.52px 10.02px 0px rgba(0, 0, 0, 0.0352941176);
+  box-shadow: 0px 22.34px 17.87px 0px rgba(0, 0, 0, 0.0431372549);
+  box-shadow: 0px 41.78px 33.42px 0px rgba(0, 0, 0, 0.0509803922);
+  box-shadow: 0px 100px 80px 0px rgba(0, 0, 0, 0.0705882353);
+}
+body .container .section1 .section1_info .box1 .img img {
+  margin-bottom: 41px;
+  cursor: pointer;
+}
+body .container .section1 .section1_info .box1 h3 {
+  font-family: "Arimo", sans-serif;
+  font-size: 34px;
+  line-height: 28px;
+  color: #000;
+  font-weight: 700;
+  margin-bottom: 32px;
+  max-width: 276px;
+  cursor: pointer;
+}
+body .container .section1 .section1_info .box1 p {
+  font-family: "Arimo", sans-serif;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000;
+  font-weight: 400;
+  margin-bottom: 18px;
+}
+body .container .section2 {
+  text-align: center;
+  margin-bottom: 170px;
+  margin-top: 180px;
+}
+body .container .section2 h4 {
+  font-family: "Arimo", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 28px;
+  color: rgba(21, 20, 57, 0.4);
+  margin-bottom: 14px;
+}
+body .container .section2 h2 {
+  font-family: "Arimo", sans-serif;
+  font-weight: 700;
+  font-size: 52px;
+  color: #0B1B35;
+  margin-bottom: 52px;
+}
+body .container .section2 .section2_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body .container .section2 .section2_info .card1 {
+  width: 370px;
+  height: 370px;
+  border-radius: 10px;
+  border: 2px solid #EBEAED;
+}
+body .container .section2 .section2_info .card1 .card1_img {
+  padding-top: 50px;
+  padding-bottom: 29px;
+}
+body .container .section2 .section2_info .card1 .card1_img img {
+  cursor: pointer;
+}
+body .container .section2 .section2_info .card1 h3 {
+  font-family: "DM Sans", sans-serif;
+  color: #1E0E62;
+  font-size: 22px;
+  line-height: 32px;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+body .container .section2 .section2_info .card1 p {
+  font-family: "DM Sans", sans-serif;
+  color: rgba(21, 20, 57, 0.4);
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 32px;
+  cursor: pointer;
+}
+body .container .section2 .section2_info .card1 .logotipy {
+  display: flex;
+}
+body .container .section2 .section2_info .card1 .logotipy .twitter {
+  display: inline-block;
+  border-top: 2px solid #EBEAED;
+  padding: 20px 50px;
+}
+body .container .section2 .section2_info .card1 .logotipy .facebook {
+  display: inline-block;
+  border-right: 2px solid #EBEAED;
+  border-left: 2px solid #EBEAED;
+  border-top: 2px solid #EBEAED;
+  padding: 18px 51px;
+}
+body .container .section2 .section2_info .card1 .logotipy .diroble {
+  display: inline-block;
+  border-top: 2px solid #EBEAED;
+  padding: 18px 51px;
+}
+body .container .footer .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 70px;
+}
+body .container .footer .top .top_left {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+body .container .footer .top .top_left .logo img {
+  width: 111px;
+  cursor: pointer;
+}
+body .container .footer .top .top_left p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  line-height: 26px;
+  color: #1E0E62;
+  font-weight: 400;
+}
+body .container .footer .top .top_right ul {
+  display: flex;
+  gap: 39px;
+}
+body .container .footer .top .top_right ul li a {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #1E0E62;
+}
+body .container .footer .bottom p {
+  font-family: "DM Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  color: rgba(21, 20, 57, 0.4);
+}/*# sourceMappingURL=style.css.map */
